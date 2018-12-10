@@ -1,0 +1,36 @@
+/*大于569的屏幕*/
+@media (min-width: 569px){
+  .intro p {
+    font-size: 3.2em;
+  }
+}
+/*大于768px的屏幕*/
+@media (min-width: 768px){
+  .quickstart h4 {
+    margin: 50px 0 0;
+    text-align: center;
+  }
+  .quickstart .code {
+    font-size: 18px;
+    margin: -30px 0;
+  }
+  .free-hosting img {
+    float: left;
+    margin: -20px -30px -30px -50px;
+    width: 300px;
+    height: 251px;
+  }
+  .free-hosting .pane:after{
+    content: '';
+    width: 73px;
+    height: 186px;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    background: url(https://www.jekyll.com.cn/img/footer-arrow.png);
+  }
+  .free-hosting p, .free-hosting a {
+      font-size: 18px;
+  }
+
+}
